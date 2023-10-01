@@ -4,9 +4,9 @@
   tasks:
     - name: Create new container snapshot
       community.general.proxmox_snap:
-#        api_user: root@pam
+        api_user: root@pam
 #        api_password: ###
-#        api_host: ###
+        api_host: 192.168.23.27
         vmid: 223
         state: present
         snapname: pre-updates
