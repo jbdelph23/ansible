@@ -6,6 +6,7 @@
       community.general.proxmox_snap:
         api_user: root@pam
 #        api_password: ###
+        api_password: "{{ password }}"
         api_host: 192.168.23.27
         vmid: 223
         state: present
